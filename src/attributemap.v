@@ -7,12 +7,12 @@ module attributemap (
 // See https://en.wikipedia.org/wiki/Video_Graphics_Array#Color_palette
 assign blink = attribute[7];
 assign bgrgb = attribute[6:4] == 3'b000 ? 24'h000000
-    : attribute[6:4] == 3'b001 ? 24'h0000AA;
-    : attribute[6:4] == 3'b010 ? 24'h00AA00;
-    : attribute[6:4] == 3'b011 ? 24'h00AAAA;
-    : attribute[6:4] == 3'b100 ? 24'hAA0000;
-    : attribute[6:4] == 3'b101 ? 24'hAA00AA;
-    : attribute[6:4] == 3'b110 ? 24'hAA5500;
+    : attribute[6:4] == 3'b001 ? 24'h0000AA
+    : attribute[6:4] == 3'b010 ? 24'h00AA00
+    : attribute[6:4] == 3'b011 ? 24'h00AAAA
+    : attribute[6:4] == 3'b100 ? 24'hAA0000
+    : attribute[6:4] == 3'b101 ? 24'hAA00AA
+    : attribute[6:4] == 3'b110 ? 24'hAA5500
     : attribute[6:4] == 3'b111 ? 24'hAAAAAA
     : 24'h000000;
 

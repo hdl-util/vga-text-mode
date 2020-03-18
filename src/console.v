@@ -13,11 +13,11 @@ module console # (
 );
 
 wire [127:0] glyph;
-glyphmap glyphmap(.clk(clk_pixel), .codepoint(codepoint), .glyph(glyph));
+glyphmap glyphmap(.codepoint(codepoint), .glyph(glyph));
 
 wire [23:0] fgrgb, bgrgb;
 wire blink;
-attributemap attributemap(.clk(clk_pixel), .attribute(attribute), .fgrgb(fgrgb), .bgrgb(bgrgb), .blink(blink));
+attributemap attributemap(.attribute(attribute), .fgrgb(fgrgb), .bgrgb(bgrgb), .blink(blink));
 
 reg [9:0] prevcy = 0;
 reg [$clog2(FONT_HEIGHT)-1:0] vindex = 0;
