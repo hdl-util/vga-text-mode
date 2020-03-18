@@ -8,7 +8,7 @@ Verilog code for [VGA-compatible text mode](https://en.wikipedia.org/wiki/VGA-co
 1. Other helpful modules are also available in this GitHub organization.
 1. Consult the usage example in [hdmi-demo](https://github.com/hdl-util/hdmi-demo) for code that runs a demo over HDMI.
 1. Read through the parameters in `console.sv` and tailor any instantiations to your situation.
-1. Please create an issue if you run into a problem or have any questions. Make sure you have consulted the troubleshooting section first.
+1. Please create an issue if you run into a problem or have any questions.
 
 ### Custom fonts
 
