@@ -19,7 +19,7 @@ wire [23:0] fgrgb, bgrgb;
 wire blink;
 attributemap attributemap(.attribute(attribute), .fgrgb(fgrgb), .bgrgb(bgrgb), .blink(blink));
 
-    reg [BIT_HEIGHT-1:0] prevcy = 0;
+reg [BIT_HEIGHT-1:0] prevcy = 0;
 reg [$clog2(FONT_HEIGHT)-1:0] vindex = 0;
 reg [$clog2(FONT_WIDTH)-1:0] hindex = 0;
 reg [5:0] blink_timer = 0;
