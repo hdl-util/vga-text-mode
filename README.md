@@ -12,7 +12,7 @@ Verilog code for [VGA-compatible text mode](https://en.wikipedia.org/wiki/VGA-co
 
 ### Custom fonts
 
-The default font is the well reputed [Terminus font](https://web.archive.org/web/20060715225046/http://www.is-vn.bg:80/hamster/jimmy-en.html) in 8x16. You can change the font to one of your liking using [psf2verilog](https://github.com/sameer/psf2verilog) to generate a drop-in replacement for `glyphmap.v`.
+The default font is the well reputed [Terminus font](https://web.archive.org/web/20080612214835/http://www.is-vn.bg/hamster/jimmy-en.html) in 8x16. You can change the font to one of your liking using [psf2verilog](https://github.com/sameer/psf2verilog) to generate a drop-in replacement for `glyphmap.v`.
 
 ### To-do List
 
